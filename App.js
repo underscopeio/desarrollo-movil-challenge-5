@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import EjemploFlex from './src/EjemploFlex03'
+import EjemploFlex from './src/EjemploFlex04'
 
 export default class App extends React.Component {
   render() {
