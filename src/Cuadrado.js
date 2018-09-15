@@ -1,9 +1,17 @@
-import React, { Component } from 'react'
-import { StyleSheet, View, Text } from 'react-native'
+import React, { Component } from "react";
+import { StyleSheet, View, Text } from "react-native";
 
 export default class Cuadrado extends Component {
   render() {
-    return <View style={[styles.cuadrado, this.props.grande && styles.grande, this.props.style]} />
+    return (
+      <View
+        style={[
+          styles.cuadrado,
+          this.props.grande && styles.grande,
+          this.props.style
+        ]}
+      />
+    );
   }
 }
 
@@ -12,11 +20,11 @@ const styles = StyleSheet.create({
     width: 50,
     height: 50,
     borderRadius: 5,
-    margin: 2,
+    margin: 2
   },
 
   grande: {
-    width: 100,
-    height: 100,
-  },
-})
+    width: 80,
+    height: 80
+  }
+});
