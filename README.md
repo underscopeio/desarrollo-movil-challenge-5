@@ -2,7 +2,8 @@
 
 Para poder resolver este challenge seguir los siguientes pasos
 
-1. Clonar este repositorio
+1. Hacer un fork este repositorio
+1. Una vez hecho el fork, hacer un clon copiando la URL (en el botón verde) y corriendo `git clone <URL>` en la consola
 1. Una vez clonado, dentro de la carpeta del proyecto correr `yarn` o `npm install` para instalar las dependencias necesarias
 1. Hacer un **nuevo branch** con tu nombre y apellido para identificarte (ej. `git checkout -b gonzalo-aguirre`)
 1. Correr el proyecto usando `exp start`
