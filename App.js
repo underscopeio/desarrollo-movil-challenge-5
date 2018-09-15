@@ -6,10 +6,11 @@ import HaciendoLaVertical from './src/Ejercicio2'
 import CentradoPerfecto from './src/Ejercicio3'
 import ElDistinto from './src/Ejercicio4'
 import TodosNoEntran from './src/Ejercicio5'
+import Simetria from './src/Ejercicio6'
 
 export default class App extends React.Component {
   render() {
-    return <TodosNoEntran />
+    return <Simetria />
   }
 }
 
