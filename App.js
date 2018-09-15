@@ -8,10 +8,11 @@ import ElDistinto from './src/Ejercicio4'
 import TodosNoEntran from './src/Ejercicio5'
 import Simetria from './src/Ejercicio6'
 import AzulLlamandoAtencion from './src/Ejercicio7'
+import ElVerdeLoDobla from './src/Ejercicio8'
 
 export default class App extends React.Component {
   render() {
-    return <AzulLlamandoAtencion />
+    return <ElVerdeLoDobla />
   }
 }
 
