@@ -9,9 +9,9 @@ export default class EjemploFlex extends Component {
       <View
         style={[
           styles.container,
-          { flexDirection: "column-reverse" },
-          { justifyContent: "center" },
-          { alignItems: "center" }
+          { flexDirection: "row" },
+          { alignItems: "center" },
+          { justifyContent: "center" }
         ]}
       >
         <Cuadrado style={styles.uno} />

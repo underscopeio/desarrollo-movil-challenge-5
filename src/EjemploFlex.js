@@ -10,14 +10,13 @@ export default class EjemploFlex extends Component {
         style={[
           styles.container,
           { flexDirection: "row" },
-          { flexWrap: "wrap" },
-          { justifyContent: "space-around" },
-          { alignItems: "center" }
+          { alignItems: "center" },
+          { justifyContent: "center" }
         ]}
       >
         <Cuadrado style={styles.uno} />
-        <Cuadrado style={[styles.dos, { flex: 1 }]} />
-        <Cuadrado style={[styles.tres, { flex: 2 }]} />
+        <Cuadrado style={[styles.dos, { alignSelf: "flex-end" }]} />
+        <Cuadrado style={styles.tres} />
         <Cuadrado style={styles.cuatro} />
       </View>
     );
