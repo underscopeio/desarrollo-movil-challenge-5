@@ -6,16 +6,9 @@ import Cuadrado from "./Cuadrado";
 export default class EjemploFlex extends Component {
   render() {
     return (
-      <View
-        style={[
-          styles.container,
-          { flexDirection: "row" },
-          { alignItems: "center" },
-          { justifyContent: "center" }
-        ]}
-      >
+      <View style={[styles.container, { flexDirection: "row" }]}>
         <Cuadrado style={styles.uno} />
-        <Cuadrado style={[styles.dos, { alignSelf: "flex-end" }]} />
+        <Cuadrado style={styles.dos} />
         <Cuadrado style={styles.tres} />
         <Cuadrado style={styles.cuatro} />
       </View>
