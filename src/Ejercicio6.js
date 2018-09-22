@@ -3,13 +3,13 @@ import { StyleSheet, Text, View, Button } from 'react-native'
 
 import Cuadrado from './Cuadrado'
 
-export default class EjemploFlex extends Component {
+export default class Ejercicio6 extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Cuadrado style={styles.uno} />
-        <Cuadrado style={styles.dos} />
-        <Cuadrado style={styles.tres} />
+        <Cuadrado grande style={styles.dos} />
+        <Cuadrado grande style={styles.tres} />
         <Cuadrado style={styles.cuatro} />
       </View>
     )
@@ -18,6 +18,9 @@ export default class EjemploFlex extends Component {
 
 const styles = StyleSheet.create({
   container: {
+    flexDirection: 'row',
+    justifyContent : 'space-around',
+    alignItems: 'center',
     flex: 1,
     marginVertical: 40,
     backgroundColor: 'black',

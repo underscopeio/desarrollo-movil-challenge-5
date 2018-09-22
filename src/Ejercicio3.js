@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Button } from 'react-native'
 
 import Cuadrado from './Cuadrado'
 
-export default class EjemploFlex extends Component {
+export default class Ejercicio3 extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -18,6 +18,8 @@ export default class EjemploFlex extends Component {
 
 const styles = StyleSheet.create({
   container: {
+    justifyContent : 'center',
+    alignItems: 'center',
     flex: 1,
     marginVertical: 40,
     backgroundColor: 'black',
