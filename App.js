@@ -1,10 +1,10 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import Ejercicio7 from './src/Ejercicio7'
+import Ejercicio8 from './src/Ejercicio8'
 
 export default class App extends React.Component {
   render() {
-    return <Ejercicio7 />
+    return <Ejercicio8 />
   }
 }
 
